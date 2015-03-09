@@ -1,0 +1,42 @@
+body {
+background-color: #002635;
+background-image: url(img/purty-wood.png);
+margin:0px;
+}
+
+@font-face {
+    font-family: JWfont;
+    src: url(Recto_Outline.ttf);
+}
+
+@font-face {
+    font-family: RS;
+src: url(RemachineScript.ttf);
+}
+
+h1 {
+text-align: center;
+font-family: "RS";
+color: #EFE7BE;
+font-weight: 100;
+font-size: 8vw;
+margin: 0;
+}
+
+div#wrap{
+background-color:#AB1A25;
+}
+
+div#enter {
+text-align: center;
+font-size: 5vw;
+font-family: "RS";
+}
+
+a {
+color: #EFE7BE!important;
+font-weight:normal;
+}
+
+.embed-container { position: relative; padding-bottom: 31.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 25%; width: 50%; height: 100%; }
