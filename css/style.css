@@ -151,7 +151,47 @@ ul {
 #social-sidebar a[class*="behance"] span,
 #social-sidebar a[class*="behance"] span:before { background: #1769ff; }
 
-@media (max-width: 800px) {
+@media (max-width: 800px)  {
+.embed-container {
+  position: relative;
+  padding-bottom: 31.25%;
+  height: 250px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  font-family: "RS";
+  color: #EFE7BE;
+  font-weight: 100;
+  font-size: 5em;
+  padding-bottom: 20px;
+  margin: 0;
+}
+div#enter {
+  text-align: center;
+  font-size: 6em;
+  font-family: "RS";
+  padding-top: 25px;
+}
+div#wrap {
+  background-color: #AB1A25;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
 .embed-container {
   position: relative;
   padding-bottom: 31.25%;
